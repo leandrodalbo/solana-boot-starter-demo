@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: demo
+
+solana:
+  enabled: true
+  endpoint: http://127.0.0.1:8899
+
+wallet-a:
+  publicKey: ""
+  privateKey: [] //private key raw bytes
+
+wallet-b:
+  publicKey: ""
+  privateKey: [] //private key raw bytes
