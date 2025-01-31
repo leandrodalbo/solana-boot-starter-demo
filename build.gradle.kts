@@ -20,8 +20,11 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
-	implementation("io.solana.boot:solana-boot-starter:1.0.0")
+	implementation("org.bitcoinj:bitcoinj-core:0.15.10")
+	implementation("io.bootsolana:solana-boot-starter:1.0.0")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
