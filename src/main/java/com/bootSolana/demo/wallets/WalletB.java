@@ -5,5 +5,4 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.List;
 
 @ConfigurationProperties("wallet-b")
-public record WalletB(String publicKey, List<Integer> privateKey) {
-}
+public record WalletB(String publicKey, List<Integer> byte64PrivateKey) {}

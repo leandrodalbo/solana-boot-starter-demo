@@ -7,9 +7,9 @@ solana:
   endpoint: http://127.0.0.1:8899
 
 wallet-a:
-  publicKey: ""
-  privateKey: [] //private key raw bytes
+  publicKey:
+  byte64PrivateKey:
 
 wallet-b:
-  publicKey: ""
-  privateKey: [] //private key raw bytes
+  publicKey:
+  byte64PrivateKey:
