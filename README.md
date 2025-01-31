@@ -1,6 +1,6 @@
 # 🚀 Solana Boot Starter Demo
 
-A simple spring-boot project show to how use solana-boot-starter.
+A simple Spring Boot project demonstrating how to use solana-boot-starter.
 
 ## Starter
 
@@ -12,16 +12,16 @@ A simple spring-boot project show to how use solana-boot-starter.
 solana-test-validator 
 solana config set --url http://127.0.0.1:8899
 
-solana-keygen new --outfile ~/testwalletA.json
-solana config set --keypair testwalletA.json
+solana-keygen new --outfile ./testwalletA.json
+solana config set --keypair ./testwalletA.json
 
 # SHOW PUBLIC KEYS
-solana-keygen pubkey testwalletA.json
-solana-keygen pubkey testwalletB.json
+solana-keygen pubkey ./testwalletA.json
+solana-keygen pubkey ./testwalletB.json
 
 ## SHOW PRIVATE KEYS
-cat testwalletA.json
-cat testwalletB.json
+cat ./testwalletA.json
+cat ./testwalletB.json
 
 # ADD SOME SOLANA TO YOUR WALLETS
 solana airdrop 11 PUBKEY_A
@@ -53,7 +53,7 @@ wallet-b:
  curl http://localhost:8080/wallet/api/balanceb
 ```
 
-### Transer solana
+### Transfer solana
 
 ```bash
  curl http://localhost:8080/wallet/api/sendfroma
